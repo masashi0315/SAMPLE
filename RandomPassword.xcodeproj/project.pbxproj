@@ -13,6 +13,7 @@
 		52D7CAD81B32A957003BCA64 /* RandomPasswordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D7CAD71B32A957003BCA64 /* RandomPasswordTests.swift */; };
 		52D7CAE31B32AC7B003BCA64 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D7CAE11B32AC7B003BCA64 /* MainWindowController.swift */; };
 		52D7CAE41B32AC7B003BCA64 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52D7CAE21B32AC7B003BCA64 /* MainWindowController.xib */; };
+		52D7CAE61B32C52F003BCA64 /* GeneratePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D7CAE51B32C52F003BCA64 /* GeneratePassword.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		52D7CAD71B32A957003BCA64 /* RandomPasswordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPasswordTests.swift; sourceTree = "<group>"; };
 		52D7CAE11B32AC7B003BCA64 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
 		52D7CAE21B32AC7B003BCA64 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		52D7CAE51B32C52F003BCA64 /* GeneratePassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratePassword.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				52D7CAC41B32A957003BCA64 /* Supporting Files */,
 				52D7CAE11B32AC7B003BCA64 /* MainWindowController.swift */,
 				52D7CAE21B32AC7B003BCA64 /* MainWindowController.xib */,
+				52D7CAE51B32C52F003BCA64 /* GeneratePassword.swift */,
 			);
 			path = RandomPassword;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52D7CAE31B32AC7B003BCA64 /* MainWindowController.swift in Sources */,
+				52D7CAE61B32C52F003BCA64 /* GeneratePassword.swift in Sources */,
 				52D7CAC71B32A957003BCA64 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -20,7 +20,13 @@ class MainWindowController: NSWindowController {
     }
     
     @IBAction func generatePassword(sender:AnyObject) {
-        textField.stringValue = "button clicked"
+        let length = 12
+        let password = generateRandomString(length)
+        
+        textField.stringValue = password
+        
+    
+        
     }
     
 }
