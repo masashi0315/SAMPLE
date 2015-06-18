@@ -6,6 +6,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="MainWindowController" customModule="RandomPassword" customModuleProvider="target">
             <connections>
+                <outlet property="textField" destination="s75-KX-nEG" id="dwQ-44-jt7"/>
                 <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
             </connections>
         </customObject>
@@ -20,21 +21,24 @@
                 <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bzk-l2-G8a">
-                        <rect key="frame" x="160" y="63" width="161" height="32"/>
-                        <buttonCell key="cell" type="push" title="Generate Password" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="bJf-xL-Rhr">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                    </button>
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s75-KX-nEG">
-                        <rect key="frame" x="100" y="150" width="281" height="48"/>
+                        <rect key="frame" x="100" y="162" width="281" height="36"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" drawsBackground="YES" id="4k7-GW-m56">
                             <font key="font" metaFont="system" size="26"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bzk-l2-G8a">
+                        <rect key="frame" x="160" y="71" width="161" height="32"/>
+                        <buttonCell key="cell" type="push" title="Generate Password" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="bJf-xL-Rhr">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="generatePassword:" target="-2" id="wCo-Yr-xqU"/>
+                        </connections>
+                    </button>
                 </subviews>
             </view>
             <connections>

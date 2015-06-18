@@ -22,7 +22,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         self.mainWindowController = mainWindowController
         
-    
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {
